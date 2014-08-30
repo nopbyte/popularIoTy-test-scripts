@@ -29,39 +29,39 @@
     <node id="g-1">
       <data key="in">g-1</data>
     </node>
-    <edge id="e1" target="a-1" source="b-1">
+    <edge id="e1" source="a-1" target="b-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e2" target="a-1" source="e-1">
+    <edge id="e2" source="a-1" target="e-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e3" target="b-1" source="d-1">
+    <edge id="e3" source="b-1" target="d-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e4" target="b-1" source="c-1">
+    <edge id="e4" source="b-1" target="c-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e5" target="e-1" source="f-1">
+    <edge id="e5" source="e-1" target="f-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e6" target="f-1" source="c-1">
+    <edge id="e6" source="f-1" target="c-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e7" target="d-1" source="g-1">
+    <edge id="e7" source="d-1" target="g-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e8" target="c-1" source="g-1">
+    <edge id="e8" source="c-1" target="g-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
-    <edge id="e9" target="f-1" source="g-1">
+    <edge id="e9" source="f-1" target="g-1">
       <data key="ev">1.0</data>
       <data key="use">1.0</data>
     </edge>
