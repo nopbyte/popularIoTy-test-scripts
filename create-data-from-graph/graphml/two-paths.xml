@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+        http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="in" for="node" attr.name="id" attr.type="string">
+  </key>
+  <key id="ev" for="edge" attr.name="event" attr.type="double"/>
+  <key id="use" for="edge" attr.name="use" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="a-1">
+      <data key="in">a-1</data>
+    </node>
+    <node id="b-1">
+      <data key="in">b-1</data>
+    </node>
+    <node id="c-1">
+      <data key="in">c-1</data>
+    </node>
+    <node id="d-1">
+      <data key="in">d-1</data>
+    </node>
+    <node id="e-1">
+      <data key="in">e-1</data>
+    </node>
+    <node id="f-1">
+      <data key="in">f-1</data>
+    </node>
+    <node id="g-1">
+      <data key="in">g-1</data>
+    </node>
+    <edge id="e1" target="a-1" source="b-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e2" target="a-1" source="e-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e3" target="b-1" source="d-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e4" target="b-1" source="c-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e5" target="e-1" source="f-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e6" target="f-1" source="c-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e7" target="d-1" source="g-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e8" target="c-1" source="g-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    <edge id="e9" target="f-1" source="g-1">
+      <data key="ev">1.0</data>
+      <data key="use">1.0</data>
+    </edge>
+    </graph>
+</graphml>
