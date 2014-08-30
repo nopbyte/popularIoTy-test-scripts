@@ -57,7 +57,7 @@ def main():
        wrong_id(dest)
     print('insert data for source soid:stream %s:%s => soid:stream: %s:%s. Events=%f. Use=%f'
                       %(parsed_src[0], parsed_src[2], parsed_dest[0], parsed_dest[2], events[e], use[e]))
-
+    es.insert_data_ES(parsed_src[0], parsed_src[2], parsed_dest[0], parsed_dest[2], events[e], use[e])
 
  #draw
  graph_draw(g, vertex_text=g.vertex_properties['id'],  

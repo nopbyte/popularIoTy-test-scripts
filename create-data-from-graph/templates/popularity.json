@@ -1,0 +1,14 @@
+{
+        "src":{
+              "soid": "FOO",
+               "streamid": "FOO"
+        },
+        "dest":{
+              "soid": "FOO",
+               "streamid": "FOO"
+        },
+        "event": true,
+        "date": "2009-11-15T14:12:12"
+}
+
+
